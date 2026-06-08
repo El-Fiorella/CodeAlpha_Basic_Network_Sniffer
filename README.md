@@ -22,8 +22,12 @@ This tool is designed to run natively on a Windows host machine using Python 3.
 ## 🛠️ Run Process step by step
 
 1. **Open Windows PowerShell or Command Prompt:**  Run as Administrator.
-2. **Navigate to the directory where your script is saved:**  ```cd $home\Downloads``` 
-4. **Execute the sniffer script:** ```python sniffer.py```
+2. **Navigate to the directory where your script is saved:**
+   ```powershell
+   cd $home\Downloads
+3. **Execute the sniffer script:**
+4. ```powershell
+   python sniffer.py
 5. **Test and verify:** Open a separate terminal window and generate network traffic (e.g., run ping 8.8.8.8).
 
 
