@@ -14,10 +14,13 @@ This project is a lightweight Network Sniffer built in Python using the Scapy li
 This tool is designed to run natively on a Windows host machine using Python 3.
 
 1. **Install Python 3:** Ensure Python 3.x is installed on your system.
+   
 2. **Install Npcap Driver:** Download and install [Npcap](https://npcap.com/). During installation, ensure you check the box for **"Install Npcap in WinPcap API-compatible Mode"** so Scapy can interact with your network interface.
+   
 3. **Install Scapy:** Open PowerShell as an Administrator and install the library via pip:
    ```powershell
    pip install scapy
+
 
 ## 🛠️ Run Process Step by step
 
