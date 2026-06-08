@@ -2,13 +2,13 @@
 
 
 ## 📡 Project Overview
-[cite_start]This project is a lightweight Network Sniffer built in Python using the Scapy library as part of the CodeAlpha Cybersecurity Internship[cite: 1, 22]. [cite_start]The tool intercepts network packets in real-time, decodes their headers, and extracts critical packet information to analyze how data flows across a network.
+This project is a lightweight Network Sniffer built in Python using the Scapy library. The tool intercepts network packets in real-time, decodes their headers, and extracts critical packet information to analyze how data flows across a network.
 
 ## 🚀 Features
-- [cite_start]**Real-Time Capture:** Hooks into the network interface to intercept live traffic[cite: 23].
-- [cite_start]**Protocol Analysis:** Identifies and parses Layer 3 (IP) and Layer 4 protocols (TCP, UDP, ICMP)[cite: 24, 26].
-- [cite_start]**Addressing:** Extracts and displays source and destination IP addresses[cite: 26].
-- [cite_start]**Payload Inspection:** Extracts and displays raw application-layer data payloads where available[cite: 26].
+- **Real-Time Capture:** Hooks into the network interface to intercept live traffic.
+- **Protocol Analysis:** Identifies and parses Layer 3 (IP) and Layer 4 protocols (TCP, UDP, ICMP).
+- **Addressing:** Extracts and displays source and destination IP addresses.
+- **Payload Inspection:** Extracts and displays raw application-layer data payloads where available.
 
 ## 🛠️ Requirements & Installation
 This tool is designed to run natively on a Windows host machine using Python 3.
@@ -25,5 +25,7 @@ This tool is designed to run natively on a Windows host machine using Python 3.
 2. **Navigate to the directory where your script is saved:**  ```cd $home\Downloads``` 
 4. **Execute the sniffer script:** ```python sniffer.py```
 5. **Test and verify:** Open a separate terminal window and generate network traffic (e.g., run ping 8.8.8.8).
+
+
 
 
